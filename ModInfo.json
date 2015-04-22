@@ -1,0 +1,9 @@
+{
+    "internalName" : "jThrowables",
+    "displayName": "jThrowables",
+    "author": "jordan",
+    "modReferences": ["jThrowables"],
+    "icon": "Icon",
+    "info": "A mod based around throwables/consumables, if that wasn't obvious enough. WARNING: ALPHA, EXPECT STRANGE HAPPENINGS/UNBALENCED ITEMS/STRANGE ITEMS/UNBALENCED HAPPENINGS.",
+    "version": "0.0.1 Alphalpha"
+}
