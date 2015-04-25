@@ -1,0 +1,31 @@
+{
+	"code": "Items.Weapons.IchorKnive",
+	"displayName": "Ichor Knive",
+	"size": [14, 30],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 5,
+	"useStyle": 1,
+	"useAnimation": 23,
+	"useTime": 23,
+	"damage": 39,
+	"knockback": 6,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:IchorKnive",
+	"shootSpeed": 17,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true,
+	
+	"recipes":
+	[//{
+	//	"items": { "Dirt Block": 1 }, 
+	//	"creates": 1
+	//},
+	{
+		"items": { "Throwing Knife": 20, "Ichor": 1, }, 
+		"creates": 20	
+	}]
+}
