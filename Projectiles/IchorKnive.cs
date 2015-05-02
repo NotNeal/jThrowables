@@ -30,7 +30,6 @@ namespace jThrowables.Projectiles
                 Main.dust[i].noGravity = true;
                 int j = Dust.NewDust(projectile.position, projectile.width, projectile.height, 169, speedX, speedY, 65, default(Color), 0.8f);
                 Main.dust[j].noGravity = true;
-        }
         }                
         public override void PostKill()
         {
