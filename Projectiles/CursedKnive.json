@@ -1,0 +1,14 @@
+{
+	"displayName": "Cursed Knive",
+	"size": [14, 30],
+	"aiStyle": 2,
+	"timeLeft": 180,
+	"friendly": true,
+	"hostile": false,	
+	"tileCollide": true,
+	"hide": false,
+	"penetrate": 2,
+	"scale": 1.0,
+	"damage": 41,
+	"melee": true
+}

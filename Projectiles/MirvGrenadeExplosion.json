@@ -1,0 +1,15 @@
+{
+	"displayName": "Mirv Grenade Explosion",
+	"texture": "Projectiles/GrenadeRadiusMedium",
+	"size": [40, 40],
+	"aiStyle": 16,
+	"timeLeft": 1,
+	"friendly": true,
+	"hostile": false,	
+	"tileCollide": true,
+	"hide": false,
+	"penetrate": 2,
+	"scale": 1.0,
+	"damage": 0,
+	"melee": true
+}

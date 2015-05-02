@@ -1,0 +1,31 @@
+{
+	"code": "Items.Weapons.CursedKnive",
+	"displayName": "Cursed Knive",
+	"size": [14, 30],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 5,
+	"useStyle": 1,
+	"useAnimation": 23,
+	"useTime": 23,
+	"damage": 41,
+	"knockback": 6,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:CursedKnive",
+	"shootSpeed": 13,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true,
+	
+	"recipes":
+	[//{
+	//	"items": { "Dirt Block": 1 }, 
+	//	"creates": 1
+	//},
+	{
+		"items": { "Throwing Knife": 20, "Cursed Flame": 1 }, 
+		"creates": 20	
+	}]
+}

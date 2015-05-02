@@ -1,0 +1,21 @@
+{
+	"code": "Items.Weapons.Screw",
+	"displayName": "Screw",
+	"size": [16, 16],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 2,
+	"useStyle": 1,
+	"useAnimation": 23,
+	"useTime": 23,
+	"damage": 31,
+	"knockback": 1,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:Screw",
+	"shootSpeed": 9,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true
+}

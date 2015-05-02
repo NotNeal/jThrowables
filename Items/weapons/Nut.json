@@ -1,0 +1,21 @@
+{
+	"code": "Items.Weapons.Nut",
+	"displayName": "Nut",
+	"size": [18, 18],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 2,
+	"useStyle": 1,
+	"useAnimation": 13,
+	"useTime": 13,
+	"damage": 21,
+	"knockback": 1,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:Nut",
+	"shootSpeed": 6,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true
+}

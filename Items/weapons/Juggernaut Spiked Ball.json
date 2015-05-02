@@ -1,0 +1,21 @@
+{
+	"code": "Items.Weapons.JuggernautBall",
+	"displayName": "Juggernaut Spiked Ball",
+	"size": [26, 26],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 2,
+	"useStyle": 1,
+	"useAnimation": 89,
+	"useTime": 89,
+	"damage": 56,
+	"knockback": 1,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:JuggernautBall",
+	"shootSpeed": 2,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true
+}

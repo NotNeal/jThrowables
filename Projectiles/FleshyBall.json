@@ -1,0 +1,14 @@
+{
+	"displayName": "Fleshy Ball",
+	"size": [16, 16],
+	"aiStyle": 14,
+	"timeLeft": 1000,
+	"friendly": true,
+	"hostile": false,	
+	"tileCollide": true,
+	"hide": false,
+	"penetrate": 8,
+	"scale": 1.0,
+	"damage": 19,
+	"melee": true
+}

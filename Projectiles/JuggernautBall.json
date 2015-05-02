@@ -1,0 +1,14 @@
+{
+	"displayName": "Juggernaut Ball",
+	"size": [26, 26],
+	"aiStyle": 14,
+	"timeLeft": 1000,
+	"friendly": true,
+	"hostile": false,	
+	"tileCollide": true,
+	"hide": false,
+	"penetrate": 8,
+	"scale": 1.0,
+	"damage": 56,
+	"melee": true
+}

@@ -1,0 +1,31 @@
+{
+	"code": "Items.Weapons.GoldenKnive",
+	"displayName": "Golden Knive",
+	"size": [10, 26],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 5,
+	"useStyle": 1,
+	"useAnimation": 23,
+	"useTime": 23,
+	"damage": 35,
+	"knockback": 6,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:GoldenKnive",
+	"shootSpeed": 13,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true,
+	
+	"recipes":
+	[//{
+	//	"items": { "Dirt Block": 1 }, 
+	//	"creates": 1
+	//},
+	{
+		"items": { "Throwing Knife": 50, "Gold Dust": 1 }, 
+		"creates": 50	
+	}]
+}

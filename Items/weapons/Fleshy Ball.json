@@ -1,0 +1,31 @@
+{
+	"code": "Items.Weapons.FleshyBall",
+	"displayName": "Fleshy Ball",
+	"size": [16, 16],
+	"maxStack": 999,
+	"channel": true,
+	"value": [0,0,0,5],	
+	"rare": 2,
+	"useStyle": 1,
+	"useAnimation": 23,
+	"useTime": 23,
+	"damage": 19,
+	"knockback": 1,
+	"useSound": 1,
+	"melee": true,	
+	"shoot": "jThrowables:FleshyBall",
+	"shootSpeed": 7,
+	"noUseGraphic": true,
+	"noMelee": true,
+	"consumable": true,
+	
+	"recipes":
+	[//{
+	//	"items": { "Dirt Block": 1 }, 
+	//	"creates": 1
+	//},
+	{
+		"items": { "Spiky Ball": 50, "Tissue Sample": 1 }, 
+		"creates": 50	
+	}]
+}

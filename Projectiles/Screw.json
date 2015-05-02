@@ -1,0 +1,14 @@
+{
+	"displayName": "Screw",
+	"size": [16, 16],
+	"aiStyle": 14,
+	"timeLeft": 1000,
+	"friendly": true,
+	"hostile": false,	
+	"tileCollide": true,
+	"hide": false,
+	"penetrate": 12,
+	"scale": 1.0,
+	"damage": 31,
+	"melee": true
+}
