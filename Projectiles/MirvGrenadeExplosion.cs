@@ -12,12 +12,17 @@ namespace jThrowables.Projectiles
     {
         public override void PostAI()
         {
-		    float speedX = projectile.velocity.X * (float)Main.rand.Next(5) * 0.5f;
-		    float speedY = projectile.velocity.Y * (float)Main.rand.Next(5) * 0.3f;
-            int i = Dust.NewDust(projectile.position, projectile.width, projectile.height, 6, speedX, speedY, 80, default(Color), 1.2f);
-            Main.dust[i].noGravity = true;
-            int j = Dust.NewDust(projectile.position, projectile.width, projectile.height, 6, speedX, speedY, 65, default(Color), 0.8f);
-            Main.dust[j].noGravity = true;
-        }                
-            }
-	    }
+            projectile.tileCollide = false;
+            projectile.ai[1] = 0f;
+            projectile.alpha = 255;
+            projectile.position.X = projectile.position.X + (float)(projectile.width / 2);
+            projectile.position.Y = projectile.position.Y + (float)(projectile.height / 2);
+            projectile.width = 160;
+            projectile.height = 160;
+            projectile.position.X = projectile.position.X - (float)(projectile.width / 2);
+            projectile.position.Y = projectile.position.Y - (float)(projectile.height / 2);
+            projectile.damage = 150;
+            projectile.knockBack = 13f;
+        }
+    }
+}

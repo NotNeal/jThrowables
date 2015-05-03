@@ -8,36 +8,15 @@ using Terraria;
 
 namespace jThrowables.Projectiles
 {
-    public class MirvGrenade : ModProjectile
+    public class MiniGrenade : ModProjectile
     {
-
         public override void PostKill()
         {
-            Main.PlaySound(14, (int)projectile.position.X, (int)projectile.position.Y, 2);
-            float speedX = (float)Main.rand.Next(3) * 1.0f;
-            float speedY = -3.5f;
-            int mg = ProjDef.byName["jThrowables:MiniGrenade"].type;
+            int mge = ProjDef.byName["jThrowables:MirvGrenadeExplosion"].type;
             Main.PlaySound(2, (int)projectile.position.X, (int)projectile.position.Y, 14);
             float X = projectile.position.X + (float)(projectile.width / 2);
             float Y = projectile.position.Y + (float)(projectile.height / 2);
-            int mge = ProjDef.byName["jThrowables:MirvGrenadeExplosion"].type;
-            Projectile.NewProjectile(X, Y, 0, 0, mge, 100, 0, projectile.whoAmI);
-            if (Main.rand.Next(1) == 0)
-            {
-                Projectile.NewProjectile(projectile.position.X + 2.0f, projectile.position.Y, speedX, speedY, mg, 0, 0, projectile.whoAmI);
-            }
-            if (Main.rand.Next(1) == 0)
-            {
-                Projectile.NewProjectile(projectile.position.X + 3.0f, projectile.position.Y, speedX, speedY, mg, 0, 0, projectile.whoAmI);
-            }
-            if (Main.rand.Next(1) == 0)
-            {
-                Projectile.NewProjectile(projectile.position.X - 2.0f, projectile.position.Y, speedX, speedY, mg, 0, 0, projectile.whoAmI);
-            }
-            if (Main.rand.Next(2) == 0)
-            {
-                Projectile.NewProjectile(projectile.position.X + 2.5f, projectile.position.Y, speedX, speedY, mg, 0, 0, projectile.whoAmI);
-            }
+            Projectile.NewProjectile(X, Y, 0, 0, mge, 45, 0, projectile.whoAmI);
             {
                 int i = Dust.NewDust(new Vector2(projectile.position.X, projectile.position.Y), projectile.width, projectile.height, 31, 0f, 0f, 100, default(Color), 1.5f);
                 Main.dust[i].velocity *= 1.4f;

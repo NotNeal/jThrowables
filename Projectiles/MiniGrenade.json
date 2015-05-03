@@ -2,13 +2,13 @@
 	"displayName": "Mini Grenade",
 	"size": [10, 10],
 	"aiStyle": 16,
-	"timeLeft": 60,
+	"timeLeft": 30,
 	"friendly": true,
 	"hostile": false,	
 	"tileCollide": true,
 	"hide": false,
-	"penetrate": 2,
+	"penetrate": 99999,
 	"scale": 1.0,
 	"damage": 0,
-	"melee": true
+	"ranged": true
 }
