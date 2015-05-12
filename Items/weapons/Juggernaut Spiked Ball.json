@@ -12,7 +12,7 @@
 	"damage": 56,
 	"knockback": 1,
 	"useSound": 1,
-	"melee": true,	
+	"ranged": true,	
 	"shoot": "jThrowables:JuggernautBall",
 	"shootSpeed": 2,
 	"noUseGraphic": true,

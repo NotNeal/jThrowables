@@ -12,7 +12,7 @@
 	"damage": 19,
 	"knockback": 1,
 	"useSound": 1,
-	"melee": true,	
+	"ranged": true,	
 	"shoot": "jThrowables:FleshyBall",
 	"shootSpeed": 7,
 	"noUseGraphic": true,

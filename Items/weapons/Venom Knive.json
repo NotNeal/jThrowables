@@ -12,7 +12,7 @@
 	"damage": 32,
 	"knockback": 6,
 	"useSound": 1,
-	"melee": true,	
+	"ranged": true,	
 	"shoot": "jThrowables:VenomKnive",
 	"shootSpeed": 13,
 	"noUseGraphic": true,

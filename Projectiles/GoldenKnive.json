@@ -1,6 +1,6 @@
 {
-	"displayName": "Ichor Knive",
-	"size": [14, 30],
+	"displayName": "Golden Knive",
+	"size": [14, 26],
 	"aiStyle": 2,
 	"timeLeft": 180,
 	"friendly": true,
@@ -9,6 +9,6 @@
 	"hide": false,
 	"penetrate": 2,
 	"scale": 1.0,
-	"damage": 39,
+	"damage": 35,
 	"ranged": true
 }

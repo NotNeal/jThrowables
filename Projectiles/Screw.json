@@ -10,5 +10,5 @@
 	"penetrate": 12,
 	"scale": 1.0,
 	"damage": 31,
-	"melee": true
+	"ranged": true
 }

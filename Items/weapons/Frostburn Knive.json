@@ -1,19 +1,19 @@
 {
-	"code": "Items.Weapons.IchorKnive",
-	"displayName": "Ichor Knive",
-	"size": [14, 30],
+	"code": "Items.Weapons.FrostburnKnive",
+	"displayName": "Frostburn Knive",
+	"size": [14, 28],
 	"maxStack": 999,
 	"channel": true,
 	"value": [0,0,0,5],	
-	"rare": 5,
+	"rare": 2,
 	"useStyle": 1,
 	"useAnimation": 23,
 	"useTime": 23,
-	"damage": 39,
+	"damage": 12,
 	"knockback": 6,
 	"useSound": 1,
 	"ranged": true,	
-	"shoot": "jThrowables:IchorKnive",
+	"shoot": "jThrowables:FrostburnKnive",
 	"shootSpeed": 13,
 	"noUseGraphic": true,
 	"noMelee": true,
@@ -25,7 +25,7 @@
 	//	"creates": 1
 	//},
 	{
-		"items": { "Throwing Knife": 20, "Ichor": 1 }, 
-		"creates": 20	
+		"items": { "Throwing Knife": 10, "Ice Torch": 1 }, 
+		"creates": 10	
 	}]
 }

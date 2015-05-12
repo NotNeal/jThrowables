@@ -12,7 +12,7 @@
 	"damage": 35,
 	"knockback": 6,
 	"useSound": 1,
-	"melee": true,	
+	"ranged": true,	
 	"shoot": "jThrowables:GoldenKnive",
 	"shootSpeed": 13,
 	"noUseGraphic": true,

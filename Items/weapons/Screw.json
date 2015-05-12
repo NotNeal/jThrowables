@@ -12,7 +12,7 @@
 	"damage": 31,
 	"knockback": 1,
 	"useSound": 1,
-	"melee": true,	
+	"ranged": true,	
 	"shoot": "jThrowables:Screw",
 	"shootSpeed": 9,
 	"noUseGraphic": true,
